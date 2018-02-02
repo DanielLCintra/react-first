@@ -1,3 +1,7 @@
+##React First Project##
+
+--This project was created for me to learn to react, it's pretty basic.
+
 ->To run project
 
 	npm i
