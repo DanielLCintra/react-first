@@ -27,7 +27,7 @@ export default class Autores extends Component {
   }
   render() {
     return (
-      <div>
+      <div id="main">
         <div className="header">
           <h1>Cadatro de Autores</h1>
         </div>
