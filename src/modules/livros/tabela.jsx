@@ -8,15 +8,17 @@ export default class Tabela extends Component {
           <thead>
             <tr>
               <th>Nome</th>
-              <th>E-mail</th>
+              <th>Preço</th>
+              <th>Autor</th>
             </tr>
           </thead>
           <tbody>
             {
-              this.props.lista.map(autor => (
-                <tr key={autor.id}>
-                  <td>{autor.nome}</td>
-                  <td>{autor.email}</td>
+              this.props.lista.map(livro => (
+                <tr key={livro.id}>
+                  <td>{livro.titulo}</td>
+                  <td>{livro.preco}</td>
+                  <td>{livro.autor.nome}</td>
                 </tr>
               ))
             }
